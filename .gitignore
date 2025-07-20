@@ -33,3 +33,16 @@ data/processed/*.pkl
 *.html
 *.pdf
 *.png
+
+#chunk files
+*.npy
+chunks/
+RoBERTaChunks/
+distilbertChunks/
+
+#models
+models/*.pkl
+
+# Results (optional if you prefer to only commit final versions)
+results/*.csv
+results/*.json
