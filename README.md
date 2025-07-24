@@ -1,12 +1,12 @@
-#Customer Support Chat Sentiment Analysis
+# Customer Support Chat Sentiment Analysis
 
 This project explores AI-related methods of customer dissatisfaction detection during customer support chats. It is the applied part of a research thesis to the MSc in Artificial Intelligence to the Irish National College.
 
-##Project Objective
+## Project Objective
 
 The objective is to categorize messages of customers as either satisfied or dissatisfied with a number of conventional machine learning and deep learning approaches. The paper examines various types of data representation, like raw text, BERT embeddings, PCA-reduced vectors as well as performance of models in different approaches.
 
-##Project Structure
+## Project Structure
 
 notebooks/
 ├── 01_preprocessing.ipynb # Clean and prepare raw customer support data
@@ -48,7 +48,7 @@ outputs/
 
 > Please see requirements.txt for a full list of dependencies.
 
-## 📌 How to Reproduce
+## How to Reproduce
 
 1. Clone the repository
 2. Install dependencies:
