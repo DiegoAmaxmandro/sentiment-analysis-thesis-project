@@ -8,26 +8,27 @@ The objective is to categorize messages of customers as either satisfied or diss
 
 ## Project Structure
 
+```plaintext
 notebooks/
-├── 01_preprocessing.ipynb # Clean and prepare raw customer support data
-├── 02_labelling.ipynb # Generate weak supervision sentiment labels
-├── 03_embeddings_pca.ipynb # Generate sentence embeddings + apply PCA
-├── 04_bilstm_model.ipynb # Train BiLSTM model on tokenized text
-├── 05_ml_models.ipynb # ML models using PCA-reduced embeddings
-├── 06_ml_raw_text_models.ipynb # ML models using raw TF-IDF features
-├── 07_generate_results_table.ipynb # Summarize performance of all models
+├── 01_preprocessing.ipynb        # Clean and prepare raw customer support data
+├── 02_labelling.ipynb            # Generate weak supervision sentiment labels
+├── 03_embeddings_pca.ipynb       # Generate sentence embeddings + apply PCA
+├── 04_bilstm_model.ipynb         # Train BiLSTM model on tokenized text
+├── 05_ml_models.ipynb            # ML models using PCA-reduced embeddings
+├── 06_ml_raw_text_models.ipynb   # ML models using raw TF-IDF features
+├── 07_generate_results_table.ipynb  # Summarize performance of all models
 
 data/
-├── raw/ # Original dataset (e.g., twcs.csv)
-├── processed/ # Preprocessed, embedded, and labelled data
-├── vader/ # VADER sentiment scores
-├── models/ # Trained models (.h5)
+├── raw/                          # Original dataset (e.g., twcs.csv)
+├── processed/                    # Preprocessed, embedded, and labelled data
+├── vader/                        # VADER sentiment scores
+├── models/                       # Trained models (.h5)
 
 results/
-├── svm/, logreg/, rf/, bilstm/ # Model-specific predictions and outputs
-outputs/
-├── summary_results_metrics.csv # Final metrics table
+├── svm/, logreg/, rf/, bilstm/   # Model-specific predictions and outputs
 
+outputs/
+├── summary_results_metrics.csv   # Final metrics table
 ## Models Explored
 
 - **SVM**, **Logistic Regression**, **Random Forest**
