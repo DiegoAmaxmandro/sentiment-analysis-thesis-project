@@ -33,9 +33,8 @@ outputs/
 
 - **SVM**, **Logistic Regression**, **Random Forest**
 - **BiLSTM Neural Network**
-- All models evaluated with 5-fold cross-validation.
+- All models evaluated with 5-fold cross-validation. ```
 
----
 
 ## Tools & Libraries
 
